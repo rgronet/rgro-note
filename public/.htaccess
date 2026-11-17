@@ -1,0 +1,12 @@
+Options -Indexes
+DirectoryIndex index.php
+
+<IfModule mod_mime.c>
+  AddType application/manifest+json .webmanifest
+</IfModule>
+
+# 업로드 크기 (PHP-FPM 이면 .user.ini 에 같은 값을 넣는다)
+<IfModule mod_php.c>
+  php_value upload_max_filesize 20M
+  php_value post_max_size 24M
+</IfModule>

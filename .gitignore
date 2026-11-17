@@ -1,0 +1,14 @@
+# https://git-scm.com/docs/gitignore
+# https://help.github.com/articles/ignoring-files
+# Example.gitignore files : https://github.com/github/gitignore
+_notes/
+/bower_components/
+/node_modules/
+/data/.htaccess
+/data/
+/app/config.local.php
+/app/config.php
+# 바탕화면 프로그램 소스는 따로 비공개 저장소(rgro-note-desktop)
+/desktop/
+# 개인 작업 폴더용 도구(PC 폴더의 txt 메모 가져오기)는 올리지 않음
+/app/tools/import_txt.php
