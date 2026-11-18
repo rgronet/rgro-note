@@ -15,6 +15,38 @@
 
 PHP 8, DB 없음. 노트는 txt 파일(첫 줄 제목, 둘째 줄부터 내용)로 웹루트 밖에 저장한다.
 
+## 화면
+
+![PC 기본 화면 - 노트북·목록·내용](docs/screenshots/pc-main.png)
+
+<table>
+<tr>
+<td width="50%"><img src="docs/screenshots/pc-todo.png" alt="회의록과 할 일 체크박스"><br>회의록과 할 일 체크박스</td>
+<td width="50%"><img src="docs/screenshots/pc-3pane.png" alt="3단 보기"><br>3단 보기 (메뉴 · 목록 · 내용)</td>
+</tr>
+<tr>
+<td><img src="docs/screenshots/pc-import.png" alt="에버노트 가져오기 완료"><br>에버노트(.enex) 가져오기 — 노트 1,300개·첨부 78개</td>
+<td><img src="docs/screenshots/pc-login.png" alt="로그인"><br>로그인 (아이디·암호, 구글·카카오·네이버)</td>
+</tr>
+</table>
+
+**휴대폰**
+
+<table>
+<tr>
+<td width="33%"><img src="docs/screenshots/mobile-list.jpg" alt="노트 목록"><br>노트 목록</td>
+<td width="33%"><img src="docs/screenshots/mobile-menu.jpg" alt="메뉴"><br>메뉴 (노트북·태그)</td>
+<td width="33%"><img src="docs/screenshots/mobile-table.jpg" alt="노트 보기"><br>노트 보기 (표)</td>
+</tr>
+<tr>
+<td><img src="docs/screenshots/mobile-more.jpg" alt="더보기 메뉴"><br>더보기 (공유·PDF·노트 정보)</td>
+<td><img src="docs/screenshots/mobile-find.jpg" alt="찾기·바꾸기"><br>노트 안에서 찾기·바꾸기</td>
+<td><img src="docs/screenshots/mobile-install.jpg" alt="앱으로 설치"><br>홈 화면에 앱으로 설치</td>
+</tr>
+</table>
+
+화면 속 노트는 모두 테스트 데이터입니다.
+
 ## 폴더
 
     알지로노트/            ← 내려받은(또는 올린) 노트 프로그램 폴더
